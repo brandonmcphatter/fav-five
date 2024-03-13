@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function LoginPage() {
   return (
       // <div className={'flex justify-center items-center h-screen '}>
@@ -8,7 +6,7 @@ export default function LoginPage() {
       <>
       <div className="flex  min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 bg-amber-50 w-96 m-auto ">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm ">
-              <Image
+              <img
                   className="mx-auto h-10 w-auto"
                   src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                   alt="Your Company"
